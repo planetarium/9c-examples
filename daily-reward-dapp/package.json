@@ -15,7 +15,7 @@
     "@apollo/client": "^3.9.11",
     "@planetarium/account": "~4.4.2",
     "@planetarium/bencodex": "^0.2.2",
-    "@planetarium/chrono-sdk": "workspace:^",
+    "@planetarium/chrono-sdk": "npm:@jsr/planetarium__chrono-sdk@^0.3.0-dev.202407300404008623+ba3a1b2ea062d78a2730af4baf2a4e7a77585358",
     "@planetarium/lib9c": "npm:@jsr/planetarium__lib9c@^0.3.0-dev.202407170506408289+2af04aea533872ccba4f01c583b2e53694d2e18e",
     "@tanstack/react-query": "^5.37.1",
     "buffer": "^6.0.3",
