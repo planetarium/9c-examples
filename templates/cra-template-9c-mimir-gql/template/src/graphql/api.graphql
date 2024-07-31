@@ -1,0 +1,7 @@
+query GetAvatarInformation($avatarAddress: Address!) {
+  avatar(address: $avatarAddress) {
+    address
+    name
+    level
+  }
+}
