@@ -1,5 +1,5 @@
 {
-  "name": "cra-template-9c-mimir-gql",
+  "name": "@planetarium/cra-template-9c-mimir-gql",
   "version": "0.1.0",
   "keywords": [
     "react",
@@ -17,6 +17,7 @@
     "url": "https://github.com/planetarium/9c-examples.git",
     "directory": "templates/cra-template-9c-mimir-gql"
   },
+  "author": "Planetarium (https://planetarium.dev/)",
   "license": "MIT",
   "engines": {
     "node": ">=16"
