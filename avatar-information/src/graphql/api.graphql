@@ -1,0 +1,20 @@
+query GetAvatarInformation($avatarAddress: Address!) {
+  avatar(address: $avatarAddress) {
+    address
+    name
+    level
+    inventory {
+      equipments {
+        count
+        elementalType
+        exp
+        grade
+        itemSheetId
+        itemSubType
+        itemType
+        level
+        mainStatType
+      }
+    }
+  }
+}
