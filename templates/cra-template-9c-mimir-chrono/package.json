@@ -1,0 +1,30 @@
+{
+  "name": "@planetarium/cra-template-9c-mimir-chrono",
+  "version": "0.1.0",
+  "keywords": [
+    "react",
+    "planetarium",
+    "ninechronicles",
+    "9c",
+    "gql",
+    "chrono",
+    "create-react-app",
+    "template",
+    "typescript"
+  ],
+  "description": "The base NineChronicles Mimir and Chrono template for Create React App.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/planetarium/9c-examples.git",
+    "directory": "templates/cra-template-9c-mimir-gql"
+  },
+  "author": "Planetarium (https://planetarium.dev/)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}

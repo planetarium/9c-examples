@@ -1,0 +1,5 @@
+query GetActionPoint($avatarAddress: Address!) {
+  avatar(address: $avatarAddress) {
+    actionPoint
+  }
+}
