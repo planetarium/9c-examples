@@ -36,18 +36,8 @@ function App() {
               <>
                 <p>Avatar Name: {data.avatar.name}</p>
                 <p>Avatar Level: {data.avatar.level}</p>
-                <h2>Equipment List</h2>
-                <ul>
-                  {data.avatar.inventory?.equipments?.map((equipment, index) => (
-                    <li key={index} className="equipment-item">
-                      <p>Item SubType: {equipment.itemSubType}</p>
-                      <p>Elemental Type: {equipment.elementalType}</p>
-                      <p>Grade: {equipment.grade}</p>
-                      <p>Level: {equipment.level}</p>
-                      <p>Count: {equipment.count}</p>
-                    </li>
-                  ))}
-                </ul>
+                {/* Action Point를 추가로 보여줍니다. */}
+                <p>Action Point: {data.actionPoint}</p>
               </>
             ) : (
               <p>No data available</p>

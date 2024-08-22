@@ -3,18 +3,6 @@ query GetAvatarInformation($avatarAddress: Address!) {
     address
     name
     level
-    inventory {
-      equipments {
-        count
-        elementalType
-        exp
-        grade
-        itemSheetId
-        itemSubType
-        itemType
-        level
-        mainStatType
-      }
-    }
   }
+  actionPoint(address: $avatarAddress)
 }
