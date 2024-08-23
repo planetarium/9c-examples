@@ -7,8 +7,9 @@
             "graphql-tag": "^2.12.6",
             "uuid": "^9.0.1",
             "web-vitals": "^2.1.0",
-            "@planetarium/chrono-sdk": "npm:@jsr/planetarium__chrono-sdk@^0.3.0-dev.202407300404008623+ba3a1b2ea062d78a2730af4baf2a4e7a77585358",
-            "@planetarium/lib9c": "npm:@jsr/planetarium__lib9c@^0.3.0-dev.202407170506408289+2af04aea533872ccba4f01c583b2e53694d2e18e"
+            "@planetarium/chrono-sdk": "^0.3.2",
+            "@planetarium/lib9c": "^0.3.1",
+            "buffer": "^6.0.3"
         },
         "devDependencies": {
             "@graphql-codegen/cli": "^5.0.2",

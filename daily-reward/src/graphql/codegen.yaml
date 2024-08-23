@@ -1,5 +1,5 @@
 overwrite: true
-schema: https://mimir.nine-chronicles.dev/odin/graphql
+schema: https://odin-rpc-1.nine-chronicles.com/graphql
 documents: src/graphql/api.graphql
 generates:
   src/graphql/generated/graphql.tsx:
