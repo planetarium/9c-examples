@@ -34,7 +34,7 @@ function App() {
   }
 
   if (accountsLoading || networksLoading) {
-    return <div className="loading-message">Loading...</div>;
+    return <div className="loading-message">Waiting... If you haven't created an account on Chrono yet, please create one.</div>;
   }
 
   if (!accountsSuccess) {
